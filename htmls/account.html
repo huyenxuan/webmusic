@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tài khoản</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <!-- signup -->
+        <div class="form-ctn sign-up">
+            <form action="" method="">
+                <h1>Tạo tài khoản</h1>
+                <input type="text" name="fullname" id="" placeholder="Họ tên">
+                <input type="email" name="email" id="" placeholder="Email">
+                <div class="pass">
+                    <input type="password" name="password" class="password" placeholder="Mật khẩu">
+                    <i class="toggle-password fa-solid fa-eye"></i>
+                </div>
+                <button type="submit">Đăng ký</button>
+            </form>
+        </div>
+
+        <!-- signin -->
+        <div class="form-ctn sign-in">
+            <form action="" method="">
+                <h1>Đăng nhập</h1>
+                <input type="email" name="email" id="" placeholder="Email">
+                <div class="pass">
+                    <input type="password" name="password" class="password" placeholder="Mật khẩu">
+                    <i class="toggle-password fa-solid fa-eye"></i>
+                </div>
+                <a href="">Bạn quên mật khẩu?</a>
+                <button type="submit">Đăng nhập</button>
+            </form>
+        </div>
+
+        <!-- toggle -->
+        <div class="toggle-ctn">
+            <div class="toggle">
+                <!-- left - signup -->
+                <div class="toggle-panel toggle-left">
+                    <h1>Chào mừng quay trở lại!</h1>
+                    <p>Nhập thông tin cá nhân của bạn để sử dụng tất cả các tính năng trang web</p>
+                    <button class="hidden" id="login">Đăng nhập</button>
+                </div>
+                <!-- right - signin -->
+                <div class="toggle-panel toggle-right">
+                    <h1>Xin chào</h1>
+                    <p>Đăng ký thông tin cá nhân của bạn để sử dụng tất cả các tính năng trang web</p>
+                    <button class="hidden" id="register">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
